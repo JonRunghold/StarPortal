@@ -1,3 +1,0 @@
-name=Touch Portal Essentials Gaming
-author=by Touch Portal
-link=https://www.touch-portal.com
