@@ -12,4 +12,10 @@ Copy "layout_StarPortal_exported" in your Star Citizen Mappingsfolder (.../StarC
 
 Doubleclick the "Touch Portal Page" - File and install this in your TouchPortal. (Autoinstall in TouchPortal)
 
-Create in your Mainmenu (in TouchPortal) a "Go To Page" - Link to the Page "SP_Welcome". Tage a click in a empty Space, navigate on the left side to Navigation -> Go To Page and choose "SP_Welcome". Give it a Name on thr right Side (Button Text)
+Create in your Mainmenu (in TouchPortal) a "Go To Page" - Link to the Page "SP_Welcome". Tage a click in a empty Space, navigate on the left side to Navigation -> Go
+To Page and choose "SP_Welcome". Give it a Name on thr right Side (Button Text)
+
+# A 4.5 0.1.1
+
+- The main menu now shows you which tab you are currently in.
+- The ATC button has disappeared, moved to the “Landing mode” page, and been replaced by “Camera.” You can now access your camera from all pages.
