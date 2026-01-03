@@ -71,11 +71,20 @@
   <action name="v_flightready">
    <rebind input="kb1_ "/>
   </action>
+  <action name="v_lock_all_ports">
+   <rebind input="kb1_rctrl+m"/>
+  </action>
   <action name="v_open_all_doors">
    <rebind input="kb1_rctrl+delete"/>
   </action>
   <action name="v_self_destruct">
    <rebind input="kb1_ "/>
+  </action>
+  <action name="v_toggle_all_portlocks">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="v_unlock_all_ports">
+   <rebind input="kb1_rshift+m"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_mfd">
@@ -203,8 +212,14 @@
   <action name="v_toggle_landing_system">
    <rebind input="kb1_ralt+n"/>
   </action>
-  <action name="v_vtol_toggle">
+  <action name="v_vtol_off">
    <rebind input="kb1_rshift+k"/>
+  </action>
+  <action name="v_vtol_on">
+   <rebind input="kb1_rctrl+k"/>
+  </action>
+  <action name="v_vtol_toggle">
+   <rebind input="kb1_ "/>
   </action>
  </actionmap>
  <actionmap name="spaceship_target_hailing">
@@ -429,11 +444,25 @@
   </action>
  </actionmap>
  <actionmap name="default">
+  <action name="notification_accept">
+   <rebind input="kb1_lalt+pgup"/>
+  </action>
+  <action name="notification_decline">
+   <rebind input="kb1_lalt+pgdn"/>
+  </action>
   <action name="toggle_chat">
    <rebind input="kb1_lalt+f12"/>
   </action>
   <action name="toggle_contact">
    <rebind input="kb1_lalt+f11"/>
+  </action>
+ </actionmap>
+ <actionmap name="ui_notification">
+  <action name="ui_notification_accept">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="ui_notification_decline">
+   <rebind input="kb1_ "/>
   </action>
  </actionmap>
  <actionmap name="player_emotes">
