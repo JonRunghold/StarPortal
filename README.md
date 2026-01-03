@@ -15,6 +15,14 @@ Doubleclick the "Touch Portal Page" - File and install this in your TouchPortal.
 Create in your Mainmenu (in TouchPortal) a "Go To Page" - Link to the Page "SP_Welcome". Tage a click in a empty Space, navigate on the left side to Navigation -> Go
 To Page and choose "SP_Welcome". Give it a Name on thr right Side (Button Text)
 
+# 0.2.1 A 4.5
+
+- Add Circle Mode  Button in Page Landingmode
+- Add Circle Mode  Button in Page Landinggear
+- Add: The current Page is highlighted in the Head Menu
+- Edit Exitbutton in Page Toggle System to Page System
+- Edit Exitbutton in Page Landingmode to Page Toggle System
+
 # 0.2 A 4.5
 
 - Add VTOL On / Off in System
